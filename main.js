@@ -3,7 +3,10 @@
  * input:
  * Giá trị nhập vào của 3 số
  * Xử lý :Cho người dùng nhập vào 3 số nguyên. Viết chương trình xuất 3 số theo thứ tự tăng dần
- * 
+ * tạo biến lưu các giá trị
+ * Dùng if else để so sánh các giá trị 
+ * Output
+ * Trả kq số tăng dần
  */
 var sort = document.getElementById('sort');
 sort.addEventListener('click', () => {
@@ -37,6 +40,14 @@ sort.addEventListener('click', () => {
 
 });
 //BT2:Viết chương trình “Chào hỏi” các thành viên trong gia đình
+/**
+ * input:
+ * select các giá trị
+ * Xử lý:
+ * Dùng onchange để khi select thay đổi thì xét giá trị đó rồi in ra kq tương ứng
+ * output:
+ * Trả kq Chào + output
+ */
 var member = document.getElementById('member');
 member.addEventListener('click', () => {
     //input
@@ -64,7 +75,15 @@ member.addEventListener('click', () => {
 
 
 //BT3:Cho 3 số nguyên. Viết chương trình xuất ra có bao nhiêu số lẻ và bao nhiêu số chẵn.
-
+/**
+ * input:
+ * ta có các giá trị nhập vào 3 số 
+ * Xử lý:
+ * tạo biến lưu giá trị đại diện là lẻ và chẵn 
+ * Sau đó dùng if else chia trh với số được nhập tương ứng với giá trị lẻ chẵn
+ * output:
+ * in ra kq bao nhiêu số chẵn số lẻ
+ */
 var number1 = Number(document.getElementById('takeNumber1').value);
 console.log(number1);
 var checkNumber = document.getElementById('checkNumber');
@@ -127,6 +146,15 @@ checkNumber.addEventListener('click', () => {
 });
 
 //BT4:Viết chương trình cho nhập 3 cạnh của tam giác. Hãy cho biết đó là tam giác gì?
+/**
+ * input:
+ * Nhập 3 giá trị vào 3 ô 
+ * Xử lý:
+ * tạo biến lưu các giá trị
+ * sử dụng công thức quy ước để xác định là tam giác nào (sử dụng if else để so sánh các cạnh)
+ * output:
+ * In ra kq là tam giác gì
+ */
 var shape = document.getElementById('shape');
 shape.addEventListener('click', () => {
     //input
